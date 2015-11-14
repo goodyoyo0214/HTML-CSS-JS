@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="Stylesheet" href="main.css">
+		<script src="new.js"></script>
+		<title>Customize Video</title>
+	</head>
+	
+	<body>
+		<div id="outerFrame">
+			<div id="skim">
+			<video id="video"   src="videoplayback.mp4" poster="playSign.png">
+			</video>
+			</div>			
+			
+			<div id=buttonArea>
+				<button id="playButton">Play</button>
+				<button id="stopButton">Stop</button>
+				<button id="upButton">Up</button>
+				<button id="downButton">Down</button>
+				<button id="muteButton">Mute</button>				
+			</div><!--end of bottomArea-->				
+			<form id="volumnMsgForm">
+				<input id="volumMsg" type="text" name="volumMsg" value="" disabled>
+			</form>			
+			<div id="clearButtomNVol" style="clear:both">
+			</div>
+			
+			
+			
+			<div id="timeBarFrame">
+				<div id="timeBar"></div>
+			</div>
+			<form id="timeMsgForm">
+					<input id="timeMsg" type="text" name="timeMsg" value="" disabled>
+			</form>
+			<div id="clearTimebarNMsg" Style="clear:left;">
+			</div>
+			
+			
+		</div><!--end of outerFrame-->
+	</body>
+</html>
